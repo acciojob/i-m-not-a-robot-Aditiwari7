@@ -4,7 +4,7 @@ for (let i = 0; i < 5; i++) {
 	let t = document.createElement("IMG");
 	t.setAttribute("data-ns-test", 'img${i+1}');
 	t.width = 100;
-	t.height = 150;
+	t.height = 100;
 	t.onclick = (e) => captchaClick(e);
 	t.src = `images/${i+1}.jpg`;
 	image.push(t);
