@@ -29,15 +29,15 @@ function clearCaptcha() {
 		image[i].onClick = (e) => captchaClick(e);
 	}
 	captcha = [];
-	// try {
- //    document.getElementById("para").remove();
- //  } catch (e) {}
- //  try {
- //    document.getElementById("btn").remove();
- //  } catch (e) {}
- //  try {
- //    document.getElementById("reset").remove();
- //  } catch (e) {}
+	try {
+    document.getElementById("para").remove();
+  } catch (e) {}
+  try {
+    document.getElementById("btn").remove();
+  } catch (e) {}
+  try {
+    document.getElementById("reset").remove();
+  } catch (e) {}
 }
 
 function captchaClick(e) {
